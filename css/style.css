@@ -42,10 +42,10 @@ button {
 	color: #C5CBD0;
 }
 .main-body {
-	padding: 20px 50px;
+	padding: 0 50px;
 }
 .main-body section{
-	margin-bottom: 50px;
+	padding: 25px 0;
 	line-height: 2;
 }
 .section-title::before{
@@ -65,4 +65,13 @@ p.undone::before{
 	padding-right: 10px;
 	border: 1 px solid red;
 	color: red;
+}
+p::after{
+	content: "Lorem";
+	color: #FFFFFF;
+	background-color: #47ADF1;
+	padding: 4px 10px;
+	margin-left: 10px;
+	border-radius: 8px;
+	font-size: 10px;
 }
