@@ -13,6 +13,7 @@ header {
 .logo {
 	width: auto;
 	line-height: normal;
+	padding: 10px 30px;
 }
 header h1, header img {
 	display: inline-block;
@@ -25,7 +26,7 @@ main {
 	border-radius: 5px;
 	color: #444851;
 }
-.main-header{
+.main-header {
 	padding: 20px 50px;
 	border-bottom: 2px solid #F6F8F9;
 }
@@ -50,11 +51,11 @@ button {
 	padding: 25px 0;
 	line-height: 2;
 }
-.section-title::before{
+.section-title::before {
 	content: "\25BE";
 	padding-right: 10px;
 }
-p.done::before{
+p.done::before {
 	content: "\2713";
 	font-size: 10px;
 	width: 15px;
@@ -69,7 +70,7 @@ p.done::before{
 	margin-right: 10px;
 	color: #65C0A9;
 }
-p.undone::before{
+p.undone::before {
 	content: "\2715";
 	font-size: 10px;
 	width: 15px;
@@ -84,10 +85,55 @@ p.undone::before{
 	margin-right: 10px;
 	color: #EB5952;
 }
-.editorial::after{
+.tag_editorial::after {
 	content: "Editorial";
 	color: #FFFFFF;
 	background-color: #47ADF1;
+	padding: 4px 10px;
+	margin-left: 10px;
+	border-radius: 8px;
+	font-size: 10px;
+}
+.tag_q1-goals::after {
+	content: "Q1 Goals";
+	color: #FFFFFF;
+	background-color: #9C72E4;
+	padding: 4px 10px;
+	margin-left: 10px;
+	border-radius: 8px;
+	font-size: 10px;
+}
+.tag_recruiting::after {
+	content: "Recruiting";
+	color: #FFFFFF;
+	background-color: #64C0A9;
+	padding: 4px 10px;
+	margin-left: 10px;
+	border-radius: 8px;
+	font-size: 10px;
+}
+.tag_mobile::after {
+	content: "Mobile";
+	color: #FFFFFF;
+	background-color: #F29E33;
+	padding: 4px 10px;
+	margin-left: 10px;
+	border-radius: 8px;
+	font-size: 10px;
+}
+.tag_website::after {
+	content: "Website";
+	color: #FFFFFF;
+	background-color: #D863A1;
+	padding: 4px 10px;
+	margin-left: 10px;
+	border-radius: 8px;
+	font-size: 10px;
+}
+.tag_sales::after {
+	content: "Sales";
+	color: #FFFFFF;
+	background-color: #B0C926;
 	padding: 4px 10px;
 	margin-left: 10px;
 	border-radius: 8px;
