@@ -12,9 +12,11 @@ header {
 }
 .logo {
 	width: auto;
+	line-height: normal;
 }
 header h1, header img {
 	display: inline-block;
+	vertical-align: middle;
 }
 main {
 	margin: 50px auto;
@@ -54,20 +56,36 @@ button {
 }
 p.done::before{
 	content: "\2713";
+	font-size: 10px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
 	border-radius: 50%;
-	border: 1 px solid green;
-	padding-right: 10px;
-	color: green;
+	border: 1px solid #65C0A9;
+	margin-right: 10px;
+	color: #65C0A9;
 }
 p.undone::before{
 	content: "\2715";
+	font-size: 10px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
 	border-radius: 50%;
-	padding-right: 10px;
-	border: 1 px solid red;
-	color: red;
+	border: 1px solid #EB5952;
+	margin-right: 10px;
+	color: #EB5952;
 }
-p::after{
-	content: "Lorem";
+.editorial::after{
+	content: "Editorial";
 	color: #FFFFFF;
 	background-color: #47ADF1;
 	padding: 4px 10px;
