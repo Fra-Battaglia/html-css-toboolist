@@ -7,6 +7,9 @@
 body {
 	background-color: #F6F8F9;
 }
+
+/* Header */
+
 header {
 	background-color: #FFFFFF;
 }
@@ -19,6 +22,9 @@ header h1, header img {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+/* Main */
+
 main {
 	margin: 50px auto;
 	background-color: #FFFFFF;
@@ -85,6 +91,9 @@ p.undone::before {
 	margin-right: 10px;
 	color: #EB5952;
 }
+
+ /* Tags */
+
 .tag_editorial::after {
 	content: "Editorial";
 	color: #FFFFFF;
